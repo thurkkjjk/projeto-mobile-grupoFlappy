@@ -1,0 +1,33 @@
+name: flappy_bird
+description: "A new Flutter project."
+
+publish_to: 'none'
+
+environment:
+  sdk: ^3.8.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  flame: ^1.30.0
+  flame_audio: ^2.11.7
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/audio/
+
+  fonts:
+    - family: Pixel
+      fonts:
+        - asset: assets/fonts/Pixel Game.otf
